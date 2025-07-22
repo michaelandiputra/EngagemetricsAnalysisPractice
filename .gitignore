@@ -1,1 +1,39 @@
+# Jupyter Notebook specific
 .ipynb_checkpoints/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.eggs/
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+*.ipynb_checkpoints/ # Redundant if .ipynb_checkpoints/ is already there, but harmless
+
+# IDEs
+.vscode/ # VS Code settings (sometimes you want to commit specific settings, sometimes not)
+.idea/   # IntelliJ/PyCharm
+
+# Operating System Files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Environment variables
+.env
